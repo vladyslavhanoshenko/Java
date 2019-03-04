@@ -20,10 +20,16 @@ public class StringReverse {
         System.out.println();
 
     }
+    public static void stringReverse4(String str){
+        StringBuffer strUpdated = new StringBuffer(str);
+        strUpdated.reverse();
+        System.out.println(strUpdated);
+    }
 
     public static void main(String[] args) {
         stringReverse1("Hello world");
         stringReverse2("teaHello World");
 
+        stringReverse4("VasyaL1123asdv");
     }
 }
